@@ -1,0 +1,42 @@
+public class SimpleCalculator {
+    
+    // Method for addition
+    public static int add(int a, int b) {
+        return a + b;
+    }
+    
+    // Method for subtraction
+    public static int subtract(int a, int b) {
+        return a - b;
+    }
+    
+    // Method for multiplication
+    public static int multiply(int a, int b) {
+        return a * b;
+    }
+    
+    // Method for division
+    public static double divide(int a, int b) {
+        if (b == 0) {
+            throw new IllegalArgumentException("Cannot divide by zero");
+        }
+        return (double) a / b;
+    }
+
+    public static void main(String[] args) {
+        // Test the calculator methods
+        int num1 = 10;
+        int num2 = 5;
+        
+        int sum = add(num1, num2);
+        int difference = subtract(num1, num2);
+        int product = multiply(num1, num2);
+        double quotient = divide(num1, num2);
+        
+        // Display the results
+        System.out.println("The sum is: " + sum);
+        System.out.println("The difference is: " + difference);
+        System.out.println("The product is: " + product);
+        System.out.println("The quotient is: " + quotient);
+    }
+}
