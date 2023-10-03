@@ -10,6 +10,17 @@ public class ArrayOperations {
         }
         return max;
     }
+
+ // Method to find the maximum value in an array
+    public static int findMax(int[] arr) {
+        int max = arr[0];
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i] > max) {
+                max = arr[i];
+            }
+        }
+        return max;
+    }
     
     // Method to find the minimum value in an array
     public static int findMin(int[] arr) {
