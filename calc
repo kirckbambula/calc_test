@@ -146,3 +146,16 @@ public class SimpleCalculator {
         System.out.println("The quotient is: " + quotient);
     }
 }
+
+// Method for multiplication
+    public static int multiply(int a, int b) {
+        return a * b;
+    }
+    
+    // Method for division
+    public static double divide(int a, int b) {
+        if (b == 0) {
+            throw new IllegalArgumentException("Cannot divide by zero");
+        }
+        return (double) a / b;
+    }
