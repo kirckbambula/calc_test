@@ -220,22 +220,4 @@ public class ArrayOperations {
 /****************/
 
 
-88888888888888888888888888888888888
 
-    public static void main(String[] args) {
-        // Test array
-        int[] numbers = {10, 20, 30, 40, 50};
-        
-        // Find and display maximum, minimum, and average
-        int max = findMax(numbers);
-        int min = findMin(numbers);
-        double avg = findAverage(numbers);
-        
-    }
-}
-***********************
-
-/****************/
-
-
-88888888888888888888888888888888888
