@@ -41,7 +41,6 @@ public class SimpleCalculator {
     }
 }
 
-
 /** copy **/
 
   public static void main(String[] args) {
