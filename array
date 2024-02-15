@@ -443,16 +443,7 @@ public class ArrayOperations {
 
 /*******************************/
 
-  public static void main(String[] args) {
-        // Test array
-        int[] numbers = {10, 20, 30, 40, 50};
-        
-        // Find and display maximum, minimum, and average
-        int max = findMax(numbers);
-        int min = findMin(numbers);
-        double avg = findAverage(numbers);
-        
-    }
+ /******************************/
 
   public static void main(String[] args) {
         // Test array
