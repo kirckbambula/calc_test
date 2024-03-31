@@ -383,7 +383,6 @@ public class ArrayOperations {
 44444444
     }
 //****// 
-
  /******************************/
 
   public static void main(String[] args) {
@@ -396,7 +395,6 @@ public class ArrayOperations {
         double avg = findAverage(numbers);
         
     }
-/*******************************/
 /*******************************/
 
   public static void main(String[] args) {
