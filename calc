@@ -321,3 +321,12 @@ public class SimpleCalculator {
         System.out.println("The product is: " + product);
         System.out.println("The quotient is: " + quotient);
 /**********************************************/
+
+/**********************************************/
+/** copy **/
+  public static void main(String[] args) {
+        // Test the calculator methods
+        int num1 = 10;
+        int num2 = 5;
+        
+  /**********************************************/
